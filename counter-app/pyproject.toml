@@ -6,7 +6,7 @@ authors = ["Lucifer516-hp <149323025+Lucifer516-hp@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.10"
 flet = "^0.19.0"
 
 
