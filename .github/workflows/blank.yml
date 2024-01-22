@@ -36,7 +36,7 @@ jobs:
       #     echo test, and deploy your project.
 
       - name: Install python dependencies
-        run: poetry install
+        run: cd counter-app;poetry install
 
       - name: Install flutter and java and gradle
         run: flutter doctor
